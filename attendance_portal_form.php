@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<title>Student Attendance Portal</title>
+	<script src="js/jquery/jquery.min.js"></script>
+	<script src="js/jqueryui/jquery-ui.custom.min.js"></script>
+	<script type="text/javascript" src="student.js"></script>
+	<link rel="stylesheet" href="css/redmond/jquery-ui.custom.min.css">
+	<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body onload="bootstrapPage(); allStudentsList();">
+		<div id="wrapper">
+			<div id="inner">
+				
+				<div id="title">
+					<h1>Student Attendance Portal</h1>
+				</div>
+				
+					<form name="attendance_portal" method="post" action="insert_attendance_record.php" onsubmit="return validateForm();">
+					<h4>Select any Date</h4>
+					<div id="select_date">
+					<input type="text" name="date" class="datepicker" id="date_id">
+					</div>
+					<div id="validation_checks">
+					</div>				
+				
+				<div id="students_list">
+				</div>
+		
+			</div>
+		</div>
+		<script>
+			(function($){
+				$('.datepicker').datepicker({
+					dateFormat: 'yy-mm-dd',
+					changeYear: true,
+					changeMonth: true
+				});
+				
+			})( jQuery );		
+		</script>
+	</body>
+</html>

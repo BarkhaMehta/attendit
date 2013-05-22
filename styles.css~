@@ -1,0 +1,125 @@
+*{
+	font:14px clean;
+	font-weight:bold;
+	padding:0;
+	margin:0;		
+}
+
+ 
+body{
+ 	background:#dcdcdc;
+}
+		 
+#wrapper{
+ 	margin:0px auto;
+ 	width:100%;
+}
+
+ 
+#inner{
+ 	margin:0px auto;
+ 	width:80%;
+	clear:both;
+ }
+		 
+#title
+{
+	text-align:center;
+ 	font-weight:bold;
+ 	font-size:25px;		 
+}
+
+ h1
+{
+ 	font-size: 21px;
+ 	color:#32cd32;
+}
+
+ h2
+{
+ 	font-size: 20px;
+ 	color:#1e90ff;
+}
+
+h3
+{
+ 	font-size: 18px;
+ 	color:#32cd32;
+}
+
+ h4
+{
+ 	font-size: 15px;
+ 	color:#1e90ff;
+}
+
+h5
+{
+ 	font-size: 14px;
+ 	color:#32cd32;
+}
+
+
+thead tr th
+{
+	color:#1e90ff;
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;	
+}
+#select_date
+{
+	font-weight:bold;
+}
+
+#submit_button_id
+{
+	font-size:15px;
+	font-weight:bold;
+	width:6em;
+	height:2em;
+	color:#32cd32;
+	margin:0px 500px;
+}
+
+#show_button
+{
+	text-align:center;
+	margin:25px auto;
+}
+
+#show_button_id
+{
+	font-size:15px;
+	font-weight:bold;
+	width:6em;
+	height:2em;
+	color:#32cd32;
+}
+
+#display_absent_students
+{
+	margin:0px 200px;
+	background:orange;
+}
+#mail_link
+{
+	margin:0px auto;
+	text-align:right;
+}
+		 
+#validation_checks
+{
+ 	font-weight:bold;
+ 	text-align:left;
+ 	color:red;
+	margin:0px 0px;
+ 	width:100%;
+}
+
+.error_messages
+{
+	color:red;
+	text-align:center;
+	font-weight:bold;
+}
